@@ -1,3 +1,2 @@
-# Express BoilerPlate
+# OTP-Verification
 
-**How to install and launch:**
