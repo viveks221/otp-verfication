@@ -1,0 +1,35 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "lint": "eslint . ",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bunyan": "^1.8.12",
+    "cookie-parser": "~1.4.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-http-context": "^1.2.4",
+    "joi": "^17.4.1",
+    "knex": "^0.95.14",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "mysql2": "^2.3.3",
+    "random-web-token": "^1.6.0",
+    "sequelize": "^6.6.5",
+    "twilio": "^3.71.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "husky": "^7.0.4",
+    "swagger-jsdoc": "^4.3.2",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "author": "Mayank Gupta"
+}

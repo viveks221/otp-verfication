@@ -1,0 +1,15 @@
+{
+    "default": {
+
+    },
+    "sendOtp": {
+        "phoneNumber": {
+            "type": "number"
+        }
+    },
+    "verify": {
+        "otp": {
+            "type": "number"
+        }
+    }
+}
